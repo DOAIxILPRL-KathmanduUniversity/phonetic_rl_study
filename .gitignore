@@ -218,3 +218,23 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Project Data and Large Datasets
+data/*.csv
+!data/sample_test.csv
+
+# PyTorch Checkpoints and Model Weights
+checkpoints/*.pt
+checkpoints/*.pth
+checkpoints/*.bin
+!checkpoints/sample_mamba_model.pt
+
+# Training and Run Logs
+logs/
+wandb/
+runs/
